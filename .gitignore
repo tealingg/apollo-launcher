@@ -1,0 +1,10 @@
+# macos
+**/.DS_Store
+
+# build output
+build/
+dist/
+build.ninja
+
+# vscode
+.vscode/
