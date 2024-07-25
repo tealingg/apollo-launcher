@@ -165,7 +165,7 @@ void waiting() {
 void launching() { printInCenter(launchStatus, 232, 16, 0xFFFFFFFF); }
 
 void error() {
-    printInCenter(launchStatus, 212, 16, 0xFFFFFFFF);
+    printInCenter("An error occurred:", 212, 16, 0xFFFFFFFF);
     printInCenter(launchStatus, 232, 16, 0xFFFFFFFF);
     printInCenter("Press HOME to exit.", 256, 16, 0xFFFFFFFF);
 
